@@ -1,0 +1,25 @@
+.task-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.task-list__empty {
+  text-align: center;
+  padding: 2rem;
+  border: 1px solid #2a2a2a;
+  background: #0f0f0f;
+  color: #555;
+}
+
+.task-list__empty p {
+  font-family: 'Special Elite', monospace;
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
+}
+
+.task-list__empty span {
+  font-size: 0.6rem;
+  color: #3a3a3a;
+}

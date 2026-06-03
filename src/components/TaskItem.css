@@ -1,0 +1,44 @@
+.task-item {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 0.7rem;
+  background: #0f0f0f;
+  border: 1px solid #1a1a1a;
+  margin-bottom: 0.5rem;
+  transition: all 0.2s;
+}
+
+.task-item:hover {
+  border-color: #555;
+  transform: translateX(4px);
+}
+
+.task-item__bullet {
+  color: #777;
+  font-size: 0.8rem;
+  min-width: 24px;
+  text-align: center;
+}
+
+.task-item__title {
+  flex: 1;
+  font-size: 0.8rem;
+  color: #aaa;
+  font-family: 'Courier New', monospace;
+  transition: all 0.2s;
+}
+
+.task-item__delete {
+  background: none;
+  border: none;
+  color: #555;
+  cursor: pointer;
+  font-family: 'Special Elite', monospace;
+  font-size: 0.7rem;
+  transition: color 0.2s;
+}
+
+.task-item__delete:hover {
+  color: #aa5555;
+}

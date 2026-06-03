@@ -1,0 +1,28 @@
+.footer {
+  text-align: center;
+  padding: 2rem 0 1rem;
+  margin-top: 2rem;
+  color: #444;
+}
+
+.footer__line {
+  width: 40px;
+  height: 1px;
+  background: #1a1a1a;
+  margin: 0 auto 1rem;
+}
+
+.footer p {
+  font-size: 0.65rem;
+}
+
+.footer__small {
+  margin-top: 0.5rem;
+  color: #3a3a3a;
+}
+
+.footer__tiny {
+  margin-top: 0.3rem;
+  font-size: 0.55rem;
+  color: #2a2a2a;
+}

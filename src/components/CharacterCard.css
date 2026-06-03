@@ -1,0 +1,54 @@
+.char-card {
+  background: #0f0f0f;
+  border: 1px solid #1a1a1a;
+  padding: 1.2rem;
+  transition: all 0.3s;
+  position: relative;
+}
+
+.char-card::before {
+  content: '';
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 10px;
+  height: 10px;
+  border-top: 1px solid #555;
+  border-left: 1px solid #555;
+}
+
+.char-card:hover {
+  transform: translateY(-4px);
+  border-color: #555;
+}
+
+.char-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.8rem;
+}
+
+.char-card__name {
+  font-family: 'Special Elite', monospace;
+  font-size: 1rem;
+  color: #aaa;
+  letter-spacing: 2px;
+}
+
+.char-card__role {
+  font-size: 0.6rem;
+  color: #444;
+}
+
+.char-card__line {
+  height: 1px;
+  background: #1a1a1a;
+  margin-bottom: 0.8rem;
+}
+
+.char-card__desc {
+  font-size: 0.75rem;
+  color: #777;
+  line-height: 1.4;
+}

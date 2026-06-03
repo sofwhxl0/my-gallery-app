@@ -1,0 +1,62 @@
+.punpun {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+.punpun__shadow {
+  width: 60px;
+  height: 8px;
+  background: rgba(0,0,0,0.3);
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+  filter: blur(4px);
+}
+
+.punpun__body {
+  background: #e0ddd5;
+  width: 80px;
+  height: 90px;
+  border-radius: 50% 50% 45% 45%;
+  position: relative;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.punpun__face {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.punpun__eye {
+  font-size: 1.2rem;
+  color: #1a1a1a;
+}
+
+.punpun__beak {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.punpun__legs {
+  font-size: 1rem;
+  color: #555;
+  margin-top: -2px;
+}

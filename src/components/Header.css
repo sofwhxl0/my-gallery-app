@@ -1,0 +1,64 @@
+.header {
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.header__top,
+.header__bottom {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #555, #555, transparent);
+}
+
+.header__top { margin-bottom: 1rem; }
+.header__bottom { margin-top: 1rem; }
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.header__logo-line {
+  width: 50px;
+  height: 1px;
+  background: #1a1a1a;
+}
+
+.header__logo-text {
+  text-align: center;
+}
+
+.header__logo-jp {
+  font-size: 0.7rem;
+  color: #555;
+  letter-spacing: 2px;
+}
+
+.header__logo-en {
+  font-family: 'Special Elite', monospace;
+  font-size: 1.4rem;
+  letter-spacing: 6px;
+  color: #aaa;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.header__nav a {
+  text-decoration: none;
+  color: #555;
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+  transition: color 0.2s;
+}
+
+.header__nav a:hover,
+.header__nav a.active {
+  color: #aaa;
+}
